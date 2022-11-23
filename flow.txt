@@ -1,0 +1,5 @@
+1) Train CycleGAN for defects in [Center, etc.] -- train.py
+2) Test CycleGAN models at checkpoints (25,50,...,200) and generate outputs -- test.py
+3) Calculate FID and KID from output of checkpoints to check performance of each model -- fid-kid-calc.py
+	- Gather output of FID and KID as CSV
+	- FID/KID scores per defect per epoch
